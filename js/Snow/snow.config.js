@@ -2,9 +2,13 @@ document.write("<style>#Snow{position: fixed; top: 0; left: 0; width: 100%; heig
 var d= new Date();
 var yr = d.getFullYear();
 var syr = yr.toString();
+var mon = d.getMonth();
+var smon = mon.toString();
+var day = d.getDate();
+var sday = day.toString();
 var hr = d.getHours();
 var shr = hr.toString();
 var mn = d.getMinutes();
 var smn = mn.toString();
-var time = syr.concat(shr, smn);
+var time = syr.concat(smon, sday, shr, smn);
 document.write("<canvas id='Snow' width='100%' height='100%'></canvas><script src='//cdn.jsdelivr.net/gh/DavidTai780/host-javascript@master/js/Snow/snow-src.js?"+time+"'></script>");
