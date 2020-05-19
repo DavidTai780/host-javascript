@@ -1,4 +1,4 @@
-document.write("<style>#Snow{position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 99999; background: rgba(125,137,95,0.1); pointer-events: none;}</style>");
+document.write("<style>#Snow{position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 99999; background: rgba(125,137,95,0.05); pointer-events: none;}</style>");
 var d= new Date();
 var yr = d.getFullYear();
 var syr = yr.toString();
